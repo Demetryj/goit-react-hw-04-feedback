@@ -1,4 +1,3 @@
-// import { Component } from 'react';
 import { useFeedback } from '../hooks/useFeedback';
 import { Container } from './Container/Container';
 import { Section } from './Section/Section';
