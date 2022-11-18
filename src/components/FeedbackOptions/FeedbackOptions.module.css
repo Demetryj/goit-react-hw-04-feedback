@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  gap: 50px;
+}
+
+.btn {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  width: 100px;
+
+  border: none;
+  border-radius: 5px;
+
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+  cursor: pointer;
+  transition: color 250ms, background-color 250ms;
+}
+
+.btn:hover,
+.btn:focus {
+  color: white;
+  background-color: rgb(14, 122, 122);
+}
